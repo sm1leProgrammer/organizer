@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.organizer{
+    width: 500px;
+    height: auto;
+    background-color: linen;
+    border: solid 1px;
+}
+
+.organizer__title{
+    text-align: center;    
+    margin: 10px;
+    border: solid 1px;
+}
+
+.organizer__input{
+    margin: 10px;
+    border: solid 1px;
+}
+
+input[type=text]{
+    font-size: 16px;
+    height: 20px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 30px;
+    border: none;
+}
+
+.organizer__input-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.btn{
+    font-size: 16px;
+    border: none;
+    height: 30px;
+    width: auto;
+    background-color: #eb9c9c;
+    border-radius: 30px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.organizer__tasks{
+    margin: 10px;
+    border: solid 1px;
+}
+
+.task{
+    display: flex;
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 1rem;
+    margin: 5px;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 2;
+}
+
+.task__deadline{
+    text-align: center;
+    flex-grow: 1;
+}
+
+
+.task__field{
+    flex-grow: 3;
+}
+
+.task__buttons{
+    flex-grow: 1;
+    text-align: center;
+}

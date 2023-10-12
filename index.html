@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="organizer">
+            <div class="organizer__title">
+                <h1>Organizer</h1>
+            </div>
+
+            <div class="organizer__input">
+                <h2>Ввод данных</h2><br>
+
+                <label for="inputTask">
+                    <input type="text" id="inputTask" placeholder="Enter task">
+                </label><br>
+                <label for="startTask">
+                    <input type="text" id="startTask" placeholder="Enter start date">
+                </label><br>
+                <label for="endTask">
+                    <input type="text" id="endTask" placeholder="Enter end date">
+                </label>
+
+                <div class="organizer__input-buttons">
+                    <button type="button" class="addNewTask btn">Добавить задачу</button>
+                    <button type="button" class="clearLocalStorage btn">Очистить задачи</button>
+                </div>
+            </div>
+
+            <div class="organizer__tasks">
+                <h2>Задачи</h2> 
+            </div> 
+        </div>
+        
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
